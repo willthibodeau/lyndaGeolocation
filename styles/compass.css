@@ -1,0 +1,33 @@
+.view {
+  display: none;
+}
+#compass {
+	display: block;
+}
+.container {
+	position: relative;
+	margin: 0 auto;
+	width: 167px;
+	overflow: hidden;
+}
+.container img {
+	width: auto;
+	height: auto;
+}
+.heading {
+	position: relative;
+	font-size: 24px;
+	font-weight: 200;
+	text-shadow: 0 -1px 0 #eee;
+	margin: 40px auto 20px auto;
+	color: #444;
+	text-align: center;
+}
+.compass {
+	padding-top: 12px;
+}
+.needle {
+	position: absolute;
+	left: 70px;
+	top: -5px;
+}
